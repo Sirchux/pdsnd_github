@@ -13,5 +13,5 @@ In this project, we used Python to explore data related to bike share systems fo
 Bikeshare data for three major cities in the US
 
 ### Credits
-It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
+Thank you to Udacity for creating the challenging project!
 
