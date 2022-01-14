@@ -22,7 +22,7 @@ def get_filters():
     # TO DO: get user input for city (chicago, new york city, washington). HINT: Use a while loop to handle invalid inputs
     city_name = ''
     while city_name.lower() not in CITY_DATA:
-        city_name = input("\nSelect a city to analyze data? (E.g. Input either chicago, new york city, washington)\n")
+        city_name = input("\nPick city to analyze data? (E.g. Input either chicago, new york city, washington)\n")
         if city_name.lower() in CITY_DATA:
             #We were able to get the name of the city to analyze data.
             city = CITY_DATA[city_name.lower()]
@@ -33,7 +33,7 @@ def get_filters():
     # TO DO: get user input for month (all, january, february, ... , june)
     month_name = ''
     while month_name.lower() not in MONTH_DATA:
-        month_name = input("\nSelect a month to filter data? (E.g. Input either 'all' to apply no month filter or january, february, ... , june)\n")
+        month_name = input("\nPick month to filter data? (E.g. Input either 'all' to apply no month filter or january, february, ... , june)\n")
         if month_name.lower() in MONTH_DATA:
             #We were able to get the name of the month to analyze data.
             month = month_name.lower()
@@ -44,7 +44,7 @@ def get_filters():
     # TO DO: get user input for day of week (all, monday, tuesday, ... sunday)
     day_name = ''
     while day_name.lower() not in DAY_DATA:
-        day_name = input("\nSelect a day to filter data? (E.g. Input either 'all' to apply no day filter or monday, tuesday, ... sunday)\n")
+        day_name = input("\nPick day to filter data? (E.g. Input either 'all' to apply no day filter or monday, tuesday, ... sunday)\n")
         if day_name.lower() in DAY_DATA:
             #We were able to get the name of the month to analyze data.
             day = day_name.lower()
